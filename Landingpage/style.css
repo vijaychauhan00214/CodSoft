@@ -1,0 +1,373 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* header  */
+header{
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:300px;
+}
+
+.logo-copyright{
+    text-align: center;
+    padding-top: 130px;
+    height:100%;
+}
+
+/* section1  */
+.section1{
+    text-align: center;
+}
+.section1 h1{
+    font-size: 39px;
+    padding-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+.section1 .para1{
+    font-size: 18px;
+    color:hsl(201, 11%, 66%);
+}
+.section1 p{
+    padding:3px;
+}
+
+.download-btn button{
+    font-size: 18px;
+    padding:10px 25px;
+    margin:40px 6px;
+    border-radius: 25px;
+}
+.btn-ios{
+    background-color:hsl(171, 66%, 44%);
+    color:white;
+    border-color:  hsl(171, 66%, 44%);
+    box-shadow:  hsl(171, 66%, 44%) 0px 10px 30px -15px;
+}
+.btn-ios:active{
+    background-color:white;
+    color:hsl(171, 66%, 44%);
+}
+.btn-mac{
+    background-color:hsl(233, 100%, 69%);
+    color:white;
+    border-color:hsl(233, 100%, 69%);
+    box-shadow:  hsl(233, 100%, 69%) 0px 10px 30px -15px;
+}
+.btn-mac:active{
+    background-color: white;
+    color:hsl(233, 100%, 69%);
+}
+
+/* section2 */
+
+.section2{
+    text-align: center;
+    margin:70px 0px;
+}
+.section2 h1{
+    font-size: 30px;
+    color:hsl(210, 10%, 33%);
+    padding-bottom: 10px;
+}
+.section2 .para2{
+    padding:5px;
+    color:hsl(201, 11%, 66%);
+}
+.section2 p{
+    font-size:1rem;
+    padding:3px;
+    color:hsl(201, 11%, 66%);
+}
+
+
+   
+
+
+/* section3 */
+
+.section3{
+    display:flex;
+}
+.section3 img{
+    margin-left: -28px;
+    width:52%;
+}
+.about-pc .step{
+    padding-top:45px;
+    padding-left: 100px;
+   
+}
+.about-pc h3{
+    color:hsl(210, 10%, 33%);
+    padding:13px 10px;
+    font-size:25px;
+   
+}
+.about-pc p{
+    color:hsl(201, 11%, 66%);
+   padding:3px 10px;
+    font-size: 15px;
+  
+}
+
+/* section4 */
+
+.section4{
+    text-align:center;
+    padding-top: 150px;
+}
+.section4 h1{
+     font-size: 30px;
+    padding-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+.section4 .para3{
+    padding:5px;
+    color:hsl(201, 11%, 66%);
+}
+.section4 p{
+    font-size:1rem;
+    padding:3px;
+    color:hsl(201, 11%, 66%);
+}
+ .section4 .device-img{
+    width:58%;
+    margin-top: 100px;
+}
+
+/* section5 */
+.section5{
+    text-align: center;
+    margin:80px 0px;
+}
+.section5 h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+.section5 .para5{
+    color:hsl(201, 11%, 66%);
+}
+.section5 .para5 p{
+    font-size:1rem;
+    padding:3px;
+    color:hsl(201, 11%, 66%);
+}
+
+.section5 .data{
+    display:flex;
+    justify-content:center;
+    margin:70px 0px 0px 0px;
+}
+.data .box{
+    text-align: center;
+    margin:0px 20px;
+
+}
+.box h3{
+    padding:0.85rem;
+    margin-top:1rem;
+    color: hsl(210, 10%, 33%);
+}
+.box p{
+    padding:3px;
+    color:hsl(201, 11%, 66%);
+    font-size: 14px;
+}
+.plain-text img{
+    padding-top: 8px;
+}
+.preview img{
+    padding-top: 8px;
+}
+.companies-icon{
+    margin:130px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.companies-icon img{
+    height:100%;
+}
+
+
+/* section6 */
+.section6{
+    text-align: center;
+    margin:70px 0px;
+}
+.section6 h1{
+    font-size: 30px;
+    color:hsl(210, 10%, 33%);
+    padding-bottom: 10px;
+}
+.section6 .para2{
+    padding:5px;
+}
+.section6 p{
+    font-size:15px;
+    padding:3px;
+    color:hsl(201, 11%, 66%);
+}
+
+/* footer */
+
+footer{
+    background-color:hsla(202, 11%, 66%, 0.11);
+    margin-top: 100px;
+    height:150px;
+    display:flex;
+    align-items: center;
+}
+.logo-img img{
+    width:55px;
+    margin-left:200px;
+    margin-right: 90px;
+}
+footer .foot-data{
+    display:flex;
+    width:55%;
+    color:hsla(212, 10%, 33%, 0.726);
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    padding:10px 40px;
+}
+.social-icons{
+    width:10rem;
+    display:flex;
+    justify-content: space-evenly;
+}
+ 
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px){
+    .companies-icon{
+        margin:130px;
+        display:flex;
+        flex-direction: column;
+    }
+    .companies-icon img{
+        height:100%;
+        padding:50px;
+    }
+}
+ 
+@media (max-width: 861px) {
+
+    /* Header */
+    header {
+        height: 200px;
+        background-image: url("images/bg-header-mobile.png");
+    }
+
+    .logo-copyright {
+        padding-top: 60px;
+    }
+
+    /* Section 1 */
+    .section1 h1 {
+        font-size: 28px;
+    }
+
+    .section1 .para1 {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .download-btn button {
+        font-size: 16px;
+        padding: 8px 20px;
+        margin: 20px 4px;
+    }
+
+    /* Section 3 */
+    .section3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section3 img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about-pc .step {
+        padding: 20px 10px;
+    }
+
+    .about-pc h3 {
+        font-size: 20px;
+    }
+
+    .about-pc p {
+        font-size: 14px;
+    }
+
+    /* Section 4 */
+    .section4 .device-img {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    /* Section 5 */
+    .section5 .data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .companies-icon{
+        margin:130px;
+        display:flex;
+        flex-direction: column;
+    }
+    .companies-icon img{
+        height:100%;
+        padding:50px;
+    }
+    .data .box {
+        margin: 20px 0;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .logo-img img{
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+
+    .foot-data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li {
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+        
+    }
+    
+}
+
+
+ 
